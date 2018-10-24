@@ -7,6 +7,13 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal"
-        },
+        },{
+            "name": "Python3: Current File (Integrated Terminal)",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "pythonPath": "/usr/bin/python3",
+            "console": "integratedTerminal"
+        }
     ]
 }
